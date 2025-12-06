@@ -25,5 +25,5 @@ print ("Welcome to Python",name)
 print("Your age",age)
 print("and your mobile number",phone)
 
-
+print(ayush)
 
