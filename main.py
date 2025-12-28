@@ -86,4 +86,48 @@ elif year % 4 == 0 and year % 100 != 0:  #this is for non century year
 else:
     print(f"{year} is not a leap year")'''
 
-    
+
+'''Que 6.Write a program to display weather condition based on temperature in Celsius.
+
+t = int(input("Enter the temperature in celsius:-"))
+
+if t < 0:
+    print("Freezing cold")
+
+elif t >= 0 and t < 10 :    
+      print("Very cold")
+
+elif t >= 10 and t < 20:
+     print("Cold")
+
+elif t >= 20 and t < 30:
+    print("Pleasant")
+
+elif t >= 30 and t < 40:
+    print("Hot")
+
+else:
+    print(" Tempareture is very hot")'''
+
+
+# range(start,end,steps)
+
+# method 1
+a = range(1,21,1)
+for i in a:
+    print(i) 
+
+# method 2
+for i in range(1,21,1):  #positive
+    print(i)      
+
+for i in range(21,0,-1):  #negetive
+    print(i) 
+
+# method 3
+for i in range(21):   #by default start me 0 hoga or step me 1.
+    print(i)      
+
+
+
+     
